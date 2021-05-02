@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Product from './Product';
+
 function Home() {
     return (
         <div className = "home">
@@ -8,19 +9,19 @@ function Home() {
             src= "https://cdn.cultofmac.com/wp-content/uploads/2016/07/Prime-Day-Banner.jpg"
             alt = ""/>
             <div className="home__row">
-            <Product
-            id="12321341"
-            title= "Dirt 3 Complete Edition (PC)"
+           <Product
+            id="12371341"
+            title= "Samsung Galaxy M31 (Ocean Blue, 6GB RAM, 128GB Storage)"
             price= {18950.00}
-            rating={5}
-            image= "https://images-eu.ssl-images-amazon.com/images/I/91sPs0ELPnL._AC_UL160_SR160,160_.jpg"
+            rating={3}
+            image= "https://m.media-amazon.com/images/I/419Sb0zGlnL.jpg"
             />
             <Product
-            id="12321341"
-            title= "Dettol Liquid Disinfectant Cleaner for Home, Lime Fresh, 500ml"
-            price= {950.00}
-            rating={5}
-            image= "https://images-eu.ssl-images-amazon.com/images/I/71Wqw15jSiL._AC_UL160_SR160,160_.jpg"
+            id="12381341"
+            title= "Fire TV Stick (3rd Gen, 2021) with all-new Alexa Voice Remote..."
+            price= {1850.00}
+            rating={4}
+            image= "https://m.media-amazon.com/images/I/41GtvKKiqTS.jpg"
             />
         </div>
         <div className="home__row">
